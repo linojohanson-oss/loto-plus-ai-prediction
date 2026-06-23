@@ -1,148 +1,170 @@
-Loto Plus AI Prediction
+# Loto Plus AI Prediction
 
-Sistema de predicción y análisis estadístico para Loto Plus utilizando Python, Deep Learning, simulaciones Monte Carlo y backtesting automatizado.
+## Overview
 
-Descripción
+Loto Plus AI Prediction is an advanced predictive analytics framework developed in Python.
 
-Loto Plus AI Prediction es un proyecto de análisis y forecasting orientado al estudio de resultados históricos de loterías utilizando técnicas de:
+The project combines Data Engineering, Statistical Analysis, Transformer Models, Deep Learning, Hybrid Optimization and Automated Evaluation into a single end-to-end pipeline.
 
-Machine Learning
-Deep Learning
-Análisis estadístico
-Simulaciones probabilísticas
-Backtesting comparativo
+The objective is to analyze historical lottery data, generate optimized prediction portfolios and continuously evaluate model performance using real-world results.
 
-El objetivo del proyecto es investigar patrones estadísticos y generar combinaciones optimizadas utilizando modelos predictivos y simulaciones avanzadas.
+---
 
-Funcionalidades Principales
-Extracción y Procesamiento de Datos
-Descarga automática de resultados históricos
-Limpieza y normalización de datos
-Exportación a Excel
-Procesamiento incremental
-Análisis Estadístico
-Frecuencia de aparición de números
-Tendencias históricas
-Antigüedad de aparición
-Probabilidades estadísticas
-Distribuciones numéricas
-Deep Learning
-Modelos predictivos en Python
-Entrenamiento automático
-Early stopping
-Optimización de modelos
-Evaluación de resultados
-Simulación Monte Carlo
-Generación masiva de combinaciones
-Optimización probabilística
-Comparación contra baseline aleatorio
-Cobertura estadística
-Backtesting
-Comparación histórica
-Evaluación de precisión
-Benchmark vs random
-Métricas comparativas
-Validación de resultados
-Automatización
-Pipeline completo automatizado
-Generación automática de reportes
-Exportación a Excel
-Integración de múltiples modelos
-Tecnologías Utilizadas
-Lenguaje
-Python
-Librerías principales
-pandas
-numpy
-scikit-learn
-TensorFlow / Keras
-openpyxl
-requests
-BeautifulSoup
-Herramientas
-Git
-GitHub
-PyCharm
-Estructura del Proyecto
-loto-plus-ai-prediction/
-│
-├── ia_loto_plus_dl.py
-├── pipeline_loto_plus.py
-├── loto_plus_analisis_estadistico.py
+## Current Capabilities
+
+### Historical Data Processing
+
+* Incremental scraping of official results
+* Automated dataset updates
+* Historical database with 543+ draws
+* Data cleaning and normalization
+
+### Statistical Analysis
+
+* Frequency analysis
+* Hot and cold numbers
+* Historical trend detection
+* Recency analysis
+* Probability calculations
+
+### Transformer Models
+
+Independent Transformer-based models trained for:
+
+* Tradicional
+* Match
+* Desquite
+* Sale o Sale
+
+### Deep Learning
+
+* Neural network forecasting
+* Early stopping
+* Learning rate scheduling
+* Automated training pipeline
+
+### Hybrid Optimization
+
+* Portfolio optimization
+* Coverage maximization
+* Evolutionary search
+* Multi-strategy generation
+
+### Intelligent Portfolio Generation
+
+The system automatically generates:
+
+* Balanced portfolios
+* Aggressive portfolios
+* Optimized portfolios
+* Hybrid portfolios
+
+### Automated Evaluation
+
+* Historical backtesting
+* Real draw validation
+* Model comparison
+* Performance tracking
+
+---
+
+## Pipeline Architecture
+
+Scraper Incremental
+↓
+Historical Dataset
+↓
+Statistical Analysis
+↓
+Transformer Models
+↓
+Deep Learning Models
+↓
+Hybrid Optimization
+↓
+Portfolio Generation
+↓
+Automated Evaluation
+
+---
+
+## Technologies
+
+* Python
+* Pandas
+* NumPy
+* Scikit-Learn
+* PyTorch
+* OpenPyXL
+* Requests
+* BeautifulSoup
+
+---
+
+## Current Dataset
+
+* 543+ historical draws processed
+* Continuous updates
+* Multi-game support
+
+Supported games:
+
+* Tradicional
+* Match
+* Desquite
+* Sale o Sale
+
+---
+
+## Project Structure
+
 ├── loto_plus_incremental_a_excel.py
-│
-├── backtesting.py
-├── backtesting_comparativo.py
-├── backtesting_dl_montecarlo.py
-├── backtesting_dl_vs_random.py
-├── backtesting_loto_plus.py
-├── backtesting_random_baseline.py
-│
-├── optimizador_cobertura_loto.py
-├── optimizador_cobertura_hibrido.py
-│
-├── README.md
-├── requirements.txt
-└── .gitignore
-Funcionalidades Avanzadas
-Deep Learning forecasting
-Monte Carlo simulations
-Statistical optimization
-Automated pipelines
-Excel report generation
-Historical validation
-Comparative benchmarking
-Random baseline analysis
-Instalación
-1. Clonar repositorio
-git clone https://github.com/linojohanson-oss/loto-plus-ai-prediction.git
-2. Crear entorno virtual
-python -m venv venv
-3. Activar entorno virtual
 
-Windows:
+├── loto_plus_analisis_estadistico.py
 
-venv\Scripts\activate
-4. Instalar dependencias
-pip install -r requirements.txt
-Ejecución
-Pipeline completo
-python pipeline_loto_plus.py
-Deep Learning
-python ia_loto_plus_dl.py
-Análisis estadístico
-python loto_plus_analisis_estadistico.py
-Resultados Generados
+├── loto_plus_pronosticos.py
 
-El sistema puede generar:
+├── ia_loto_plus_dl.py
 
-Pronósticos probabilísticos
-Rankings de números
-Combinaciones optimizadas
-Reportes Excel
-Métricas comparativas
-Evaluaciones históricas
-Simulaciones Monte Carlo
-Próximas Mejoras
-Modelos Transformer
-Dashboard visual
-APIs REST
-Deploy cloud
-Automatización programada
-Visualización avanzada
-Ensemble models
-Optimización GPU
-Objetivo del Proyecto
+├── optimizador_cobertura_hibrido2.py
 
-Este proyecto fue desarrollado como investigación práctica sobre:
+├── fusionador_final_corregido.py
 
-Machine Learning aplicado
-Forecasting probabilístico
-Automatización de pipelines
-Simulación estadística
-Deep Learning
-Data Engineering
-Data Analytics
-Autor
+├── fusionador_portafolio_inteligente.py
 
-Federico Tapper
+├── evaluador_predicciones.py
+
+├── pipeline_loto_plus.py
+
+└── data/
+
+---
+
+## Generated Outputs
+
+* Statistical reports
+* Prediction files
+* Deep Learning predictions
+* Optimized portfolios
+* Final tickets
+* Historical evaluations
+* Performance reports
+
+---
+
+## Future Enhancements
+
+* GPU acceleration
+* Advanced ensemble methods
+* Interactive dashboards
+* Merval AI adaptation
+* Financial market forecasting experiments
+
+---
+
+## Author
+
+Federico Lino Tapper
+
+Python Developer | Data Analytics | Machine Learning | AI Solutions
+
