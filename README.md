@@ -2,15 +2,13 @@
 
 ## Overview
 
-Loto Plus AI Prediction is an advanced predictive analytics framework developed in Python.
+Loto Plus AI Prediction is an advanced predictive analytics framework developed in Python that combines Data Engineering, Statistical Analysis, Transformer Models, Deep Learning, Hybrid Optimization and Automated Evaluation.
 
-The project combines Data Engineering, Statistical Analysis, Transformer Models, Deep Learning, Hybrid Optimization and Automated Evaluation into a single end-to-end pipeline.
-
-The objective is to analyze historical lottery data, generate optimized prediction portfolios and continuously evaluate model performance using real-world results.
+The project processes historical Loto Plus data, generates optimized prediction portfolios and continuously evaluates model performance using real-world results.
 
 ---
 
-## Current Capabilities
+## Main Features
 
 ### Historical Data Processing
 
@@ -23,7 +21,7 @@ The objective is to analyze historical lottery data, generate optimized predicti
 
 * Frequency analysis
 * Hot and cold numbers
-* Historical trend detection
+* Historical trends
 * Recency analysis
 * Probability calculations
 
@@ -152,19 +150,32 @@ Supported games:
 
 ---
 
+## Recent Results
+
+* 543+ historical draws processed
+* Automated evaluation system active
+* Multi-model architecture
+* Transformer + Deep Learning ensemble
+* Hybrid optimization engine
+* Intelligent portfolio generation
+
+---
+
 ## Future Enhancements
 
 * GPU acceleration
 * Advanced ensemble methods
 * Interactive dashboards
-* Merval AI adaptation
-* Financial market forecasting experiments
+* Financial market adaptation
+* Merval and Nasdaq forecasting experiments
 
 ---
 
 ## Author
 
-Federico Lino Tapper
+Federico Lino
 
 Python Developer | Data Analytics | Machine Learning | AI Solutions
 
+GitHub:
+https://github.com/linojohanson-oss
